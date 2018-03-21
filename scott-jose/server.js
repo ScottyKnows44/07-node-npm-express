@@ -20,4 +20,9 @@ app.post('/articles', bodyParser, function(request, response) {
   response.send('Record posted to server!!');
 });
 
+app.get('/404', (req, res) => {
+  console.log('404!!!');
+  res.sendFile('public/404.html', { root: '.' });
+});
+
 app.listen(PORT, () => console.log(`server is listening to ${PORT}`));

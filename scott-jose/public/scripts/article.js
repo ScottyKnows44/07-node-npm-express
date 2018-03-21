@@ -50,7 +50,7 @@ Article.prototype.insertRecord = function(callback) {
       console.log(data);
 
       // COMMENT: What is the purpose of this line? Is the callback invoked when this method is called? Why or why not?
-      // PUT YOUR RESPONSE HERE
+      // The purose of this line is to listen for any responses from the form. Yes, this callback is invoked when the method is called, it will trigger the callback function.
       if (callback) callback();
     })
 };
