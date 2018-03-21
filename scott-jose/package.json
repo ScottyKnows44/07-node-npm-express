@@ -1,0 +1,22 @@
+{
+  "name": "scott-jose",
+  "version": "1.0.0",
+  "description": "lab 07",
+  "main": "server.js",
+  "scripts": {
+    "test": "lab",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "07-lab"
+  },
+  "keywords": [
+    "demi"
+  ],
+  "author": "scott, and Jose",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
